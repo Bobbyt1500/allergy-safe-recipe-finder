@@ -1,0 +1,38 @@
+:root {
+    --purple1: #7900FF;
+    --blue1: #548cff;
+    --orange1: #ff9100;
+    --orange2: #c26f03;
+}
+
+body {
+    background: var(--blue1);
+}
+
+#filterTitle {
+    border-color: var(--orange1) !important;
+}
+
+.purplegrad-bg {
+    background: var(--purple1);
+    background: linear-gradient(180deg, var(--purple1) 0%, var(--blue1) 100%);
+    color: white;
+}
+
+.btn-orange {
+    color: white;
+    background-color: var(--orange1);
+}
+
+.btn-orange:hover {
+    color: white;
+    background-color: var(--orange2);
+}
+
+.form-check-input:checked {
+    background-color: var(--orange1);
+}
+
+.ing-check {
+    margin-right: 1.5rem!important;
+}
