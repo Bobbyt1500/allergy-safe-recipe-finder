@@ -82,11 +82,11 @@ export default class App extends React.Component {
                 <div className="purplegrad-bg">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md d-flex justify-content-md-end justify-content-center align-items-center mt-4">
-                                <h1 className="fw-bold display-4">Allergy-Safe Recipe Finder</h1>
+                            <div className="col-lg d-flex justify-content-lg-end justify-content-center align-items-center mt-4">
+                                <h1 className="fw-bold display-4 text-center">Allergy-Safe Recipe Finder</h1>
                             </div>
 
-                            <div className="col-md d-flex justify-content-md-start justify-content-center mt-4">
+                            <div className="col-lg d-flex justify-content-lg-start justify-content-center mt-4">
                                 <Filter ingredients={this.state.ingredients} modifyFilters={this.modifySelectedFilters} />
                             </div>
                         </div>
