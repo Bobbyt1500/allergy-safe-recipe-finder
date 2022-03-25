@@ -1,4 +1,4 @@
-# To Build and Run
+# To Build and Run 20
 
 1. Install dependencies with node: `npm install`
 2. Create build directory: `mkdir build`
